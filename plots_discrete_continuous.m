@@ -6,10 +6,10 @@ for i = 1:length(titles)
     y = y_data(i, :)
     subplot(6, 2, (i*2 -1))
     plot(x, y)
-    xlabel("t"); ylabel("amplitude");
+    xlabel("t"); ylabel("amplitude")
     title(titles(i) + " - continuous")
     subplot(6, 2, i*2)
     stem(x(1:100:end), y(1:100:end)) %reduce resolution for discrete function plot
-    xlabel("n"); ylabel("amplitude");
+    xlabel("n"); ylabel("amplitude")
     title(titles(i) + " - discrete")
 end

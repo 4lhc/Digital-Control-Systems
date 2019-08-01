@@ -1,2 +1,2 @@
 # Digital-Control-Systems
-Digital Control Systems assignments and projects - Matlab
+Digital Control Systems practice and projects - MATLAB Code
